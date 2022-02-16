@@ -1,0 +1,70 @@
+:root {
+    --background-color: #7CA982;
+    --bg-two: #E0EEC6;
+    --bg-three: #243E36;
+    --link-color: black;
+    --padding-avg: 4rem;
+}
+* {
+    border: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--bg-two);
+    padding: 1rem;
+}
+
+header li {
+    list-style-type: none;
+}
+header li a {
+    list-style-type: none;
+    color: var(--link-color);
+    margin: 0 25px;
+}
+main {
+background-color: var(--background-color);
+min-height: 99vh;
+}
+footer {
+    background-color: var(--bg-two);
+    padding: var(--padding-avg);
+}
+footer p {
+    text-align: center;
+}
+aside {
+    border: 1px solid var(--link-color);
+    color: white;
+    text-align: center;
+}
+.big-nav {
+    display: none;
+}
+/* ^end mobile code^ */
+/* everything below is big screen css */
+
+@media screen and (min-width: 700px) {
+main {
+    display: flex;
+}
+aside {
+    color: red;
+    padding: 6rem;
+}
+main div {
+    padding: 6rem;
+}
+.big-nav {
+    display: block;
+}
+.mobile-nav {
+    display: none;
+}
+
+
+
+}
