@@ -2,7 +2,7 @@
     --background-color: #7CA982;
     --bg-two: #E0EEC6;
     --bg-three: #243E36;
-    --link-color: black;
+    --link-color: #47604B;
     --padding-avg: 4rem;
 }
 * {
@@ -11,9 +11,16 @@
     margin: 0;
     padding: 0;
 }
-
+@font-face {
+font-family: 'Archivo-Black' ;
+src: url('../fonts/archivoblack.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'zenmaru' ;
+    src: url('../fonts/zenmarugothic.woff2') format('woff2');
+}
 header {
-    background-color: var(--bg-two);
+    background-color: var(--background-color);
     padding: 1rem;
 }
 
@@ -22,6 +29,7 @@ header li {
 }
 header li a {
     list-style-type: none;
+    font-family: zenmaru;
     color: var(--link-color);
     margin: 0 25px;
 }
@@ -43,6 +51,47 @@ aside {
 }
 .big-nav {
     display: none;
+}
+.welcome {
+    color: #47604B;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Archivo-Black;
+}
+.welcome__subheading {
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: zenmaru;
+    color: #47604B;
+}
+.portrait_img {
+    border-radius: 25px;
+}
+.portrait {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin: auto;
+    width: 60%;
+    height: auto;
+}
+.learn_more {
+text-align: center;
+padding: 10px;
+font-family: zenmaru;
+}
+.learn_more:visited {
+ color: #F1F7ED;
 }
 /* ^end mobile code^ */
 /* everything below is big screen css */
