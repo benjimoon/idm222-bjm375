@@ -262,6 +262,15 @@ font-family: 'zenmaru';
 color: var(--link-color);
 line-height: 2rem;
 }
+.resume_all {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
 
 
 /* aboutme css starts here*/
@@ -269,8 +278,17 @@ line-height: 2rem;
     font-family: 'Archivo-Black';
     color: var(--link-color);
     text-align: center;
-    font-size: 2rem;
+    font-size: 5rem;
     padding: 1rem;
+    margin: auto;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+
 }
 .ab_text {
     text-align: left;
@@ -278,6 +296,14 @@ line-height: 2rem;
     font-family: 'zenmaru';
     color: var(--link-color);
     line-height: 2rem;
+    margin: auto;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
 }
 
 
@@ -293,6 +319,16 @@ line-height: 2rem;
 
 
 /* portfolio css starts here */
+.all {
+    margin: auto;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
 .proj__text {
     font-family: 'Archivo-Black';
     color: var(--link-color);
@@ -454,6 +490,15 @@ overflow: hidden;
 }
  }
 /* doma css starts here */
+.doma_main{
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
 .redesign_text {
     font-family: 'Archivo-Black';
     color: var(--link-color);
@@ -491,6 +536,15 @@ overflow: hidden;
     }
 }
 /* forgetme css starts here*/
+.forgetme_all {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
 .forgetme_text {
     font-family: 'Archivo-Black';
     color: var(--link-color);
